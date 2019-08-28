@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 python ../pytorch/engine/train.py evaluate --config_path=../configs/FCOS/car/xyres_20.config --model_dir=/root/experiment_result/pointpillar_fcos_direction_batchsize4  --measure_time=True --batch_size=1
